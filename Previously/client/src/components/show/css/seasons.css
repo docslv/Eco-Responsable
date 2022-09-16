@@ -1,0 +1,42 @@
+#episodes-container {
+  position: relative;
+  margin: 15px 0px;
+  color: #f1f1f1;
+}
+
+#episodes-carousel {
+  width: 100%;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+  overflow: hidden;
+}
+
+.carousel-arrow {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 10;
+  height: 100%;
+  cursor: pointer;
+}
+
+#carousel-arrow-right {
+  right: 0;
+  background-image: linear-gradient(
+    to left,
+    rgba(250, 250, 250, 0.4),
+    transparent,
+    transparent
+  );
+}
+
+#carousel-arrow-left {
+  left: 0;
+  background-image: linear-gradient(
+    to right,
+    rgba(250, 250, 250, 0.4),
+    transparent,
+    transparent
+  );
+}

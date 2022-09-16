@@ -1,0 +1,39 @@
+#show-container {
+  padding: 10px;
+}
+
+#img-container {
+  width: 50%;
+  display: inline-block;
+}
+
+#infos-container {
+  position: relative;
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  vertical-align: top;
+  padding: 0px 10px;
+  color: #f1f1f1;
+}
+
+#show-title {
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-family: "RobotoBlack";
+  color: #ff2244;
+  font-size: 24px;
+}
+
+#show-description {
+  max-width: 50%;
+}
+
+#show-note {
+  margin: 0;
+}
+
+#seasons-container {
+  margin-top: 25px;
+}

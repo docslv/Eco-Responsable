@@ -1,0 +1,46 @@
+.card {
+  padding: 10px;
+}
+
+.img-container {
+  display: inline-block;
+  width: 50%;
+}
+
+.card-img {
+  width: 100%;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.card-img:hover {
+  transform: scale(1.02);
+}
+
+.card-img:active {
+  transform: scale(0.98);
+}
+
+.infos-container {
+  position: relative;
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  vertical-align: top;
+  padding: 0px 10px;
+  color: #f1f1f1;
+}
+
+.infos-container p {
+  font-family: "Roboto";
+  font-size: 18px;
+}
+
+.card-title {
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-family: "RobotoBlack";
+  color: #ff2244;
+  font-size: 24px;
+}

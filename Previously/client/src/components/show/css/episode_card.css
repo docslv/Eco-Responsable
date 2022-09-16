@@ -1,0 +1,51 @@
+.episode-container {
+  position: relative;
+  display: inline-block;
+  width: 350px;
+  height: 250px;
+  margin: 0px 5px;
+}
+
+.episode-container:first-of-type {
+  margin-left: 0px;
+}
+
+.episode-container:last-of-type {
+  margin-right: 0px;
+}
+
+.episode-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.episodes-infos {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(5, 5, 5, 0.7);
+  text-align: center;
+  z-index: 1;
+}
+
+.episodes-infos * {
+  margin: 0;
+  padding: 0;
+}
+
+.episode-code {
+  padding: 5px 0px;
+  color: #ff2244;
+  font-size: 24px;
+  font-family: "RobotoBlack";
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.episode-title {
+  margin: 15px 0px;
+}

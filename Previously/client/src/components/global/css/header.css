@@ -1,0 +1,31 @@
+#header {
+  background-color: #222831;
+  color: #f1f1f1;
+  padding: 15px 0px;
+}
+
+.header-link {
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  font-size: 23px;
+}
+
+.header-link::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  transform-origin: right;
+  transform: scaleX(0);
+  background-color: #ff2244;
+  transition: transform 0.3s;
+}
+
+.header-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}

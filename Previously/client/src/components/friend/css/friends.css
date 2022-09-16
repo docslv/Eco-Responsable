@@ -1,0 +1,33 @@
+#friend-container {
+  text-align: center;
+}
+
+#friend-title {
+  font-size: 24px;
+  color: rgb(255, 34, 68);
+  font-family: "RobotoBlack";
+}
+
+#friend-recommandation {
+  text-align: center;
+}
+
+#friend-box {
+  padding-top: 50px;
+}
+
+#friend-search {
+  border: solid 3px rgb(0, 128, 0);
+  border-radius: 5px;
+  padding: 15px 10px;
+  transition: all 0.5s;
+}
+
+#friend-search:focus {
+  border-color: blue;
+  border-left-width: 5px;
+}
+
+#friend-search:hover {
+  border-color: black;
+}

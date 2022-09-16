@@ -1,0 +1,43 @@
+#episode-infos-container {
+  position: relative;
+}
+
+.arrow {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+  height: 100%;
+  top: 0;
+}
+
+#episode-infos {
+  color: #f1f1f1;
+}
+
+#episode-big-title {
+  font-family: "RobotoBlack";
+  color: #ff2244;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+#episode-title {
+  font-family: "RobotoLight";
+  font-weight: 400;
+  font-size: 22px;
+}
+
+#episode-description {
+  max-width: 50%;
+}
+
+#episode-comment {
+  padding: 10px;
+  width: 100%;
+  height: 150px;
+  resize: none;
+  overflow-y: auto;
+}
